@@ -4,14 +4,16 @@
     width: 100%
 }
 .student-table th {
-border: 1px solid #9c9c9c;
+border: 1px solid rgb(109, 105, 227);
 padding: 8px 12px;
-background: #ffd7d7;
+background: #e274d3;
 }
 .student-table td {
 padding: 4px 8px;
-border: 1px solid #d6d6d6;
+border: 1px solid #8492d0a1;
+background-color: #9fe0ffa1;
 }
+
 </style>
 
 <h1>Sample Student Information</h1>
@@ -22,6 +24,7 @@ border: 1px solid #d6d6d6;
             <th>Name</th>
             <th>Student ID</th>
             <th>Age</th>
+            <th>Hobby</th>
         </tr>
     </thead>
     <tbody>
@@ -31,6 +34,7 @@ border: 1px solid #d6d6d6;
                 <td>@student.Name</td>
                 <td>@student.StudentId</td>
                 <td>@student.StudentAge</td>
+                <td>@student.StudentHobby</td>
             </tr>
         }
     </tbody>
